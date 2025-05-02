@@ -3,9 +3,9 @@ import '../../assets/sass/Section2.scss'
 
 const Section2 = () => {
   const sectionRef = useRef<HTMLElement>(null)
-  const leftRef = useRef<HTMLElement>(null)
-  const rightTopRef = useRef<HTMLElement>(null)
-  const rightBottomRef = useRef<HTMLElement>(null)
+  const leftRef = useRef<HTMLDivElement>(null)
+  const rightTopRef = useRef<HTMLDivElement>(null)
+  const rightBottomRef = useRef<HTMLDivElement>(null)
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(100);
   const [ aniTrue, setAniTrue ] = useState(false);
